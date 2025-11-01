@@ -1,2 +1,6 @@
 # LSPC
 Longest Shortest-Path-Connection (LSPC) algorithm to determine tight upper bounds on voltage angle differences between disconnected bus pairs within transmission expansion planning networks. LSPC is a polynomial-time algorithm that overcomes the practical drawbacks of the longest path problem approach, which is the only existing option for generating valid upper bounds for new-bus integration scenarios.
+
+The Dataset is generated from the Texas 6717-bus synthetic grid (Electric Grid Test Case Repository, Texas A&M Engineering Experiment Station), which consists of 6717 buses, 8646 corridors, and 731 generators. This grid is adapted into a TEP instance with disconnected buses, as no such instance is publicly available. This modification involves disconnecting 138 corridors and introducing a total of 236 candidate lines. The expansion corridors are strategically selected to connect generation units, intermediary substations, and demand centers, facilitating efficient power flow distribution. Selected line capacities are reduced and all load demands are increased by 5\% to simulate peak demand conditions. Generation costs are also linearized to ensure consistency with the model. The modified instance is available upon request.
+
+Main Dataset link: https://electricgrids.engr.tamu.edu/electric-grid-test-cases/
