@@ -1,1 +1,2 @@
 # LSPC
+Longest Shortest-Path-Connection (LSPC) algorithm to determine tight upper bounds on voltage angle differences between disconnected bus pairs within transmission expansion planning networks. LSPC is a polynomial-time algorithm that overcomes the practical drawbacks of the longest path problem approach, which is the only existing option for generating valid upper bounds for new-bus integration scenarios.
