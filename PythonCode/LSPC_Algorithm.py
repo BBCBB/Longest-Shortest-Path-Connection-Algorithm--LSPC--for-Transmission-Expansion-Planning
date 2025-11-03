@@ -80,7 +80,7 @@ def adj_list(branch_data,Sbase):
     for info in branch_data.values():
         u = info['branch_fbus']
         v = info['branch_tbus']
-        w = info['branch_x'] * info['Fmax'] * Sbase 
+        w = info['branch_x'] * info['Fmax'] / Sbase 
         adj_all[u][v] += w
         adj_all[v][u] += w
         if info['branch_status']:
